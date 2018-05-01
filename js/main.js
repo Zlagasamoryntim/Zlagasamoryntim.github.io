@@ -66,8 +66,8 @@ function initSigma(config) {
     	graphProps={
         minNodeSize: 1,
         maxNodeSize: 7,
-        minEdgeSize: 1,
-        maxEdgeSize: 7
+        minEdgeSize: 0.2,
+        maxEdgeSize: 0.5
     	};
 	
 	if (config.sigma && config.sigma.mouseProperties) 
