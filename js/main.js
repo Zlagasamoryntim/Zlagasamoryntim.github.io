@@ -63,9 +63,12 @@ function initSigma(config) {
         activeFontStyle: "bold"
     };
     
+    if (config.sigma && config.sigma.graphProperties)	
+    	graphProps=config.sigma.graphProperties;
+    else
     	graphProps={
-        minNodeSize: 15,
-        maxNodeSize: 20,
+        minNodeSize: 1,
+        maxNodeSize: 7,
         minEdgeSize: 0.2,
         maxEdgeSize: 0.5
     	};
