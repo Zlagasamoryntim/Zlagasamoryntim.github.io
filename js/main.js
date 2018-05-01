@@ -64,8 +64,8 @@ function initSigma(config) {
     };
     
     	graphProps={
-        minNodeSize: 20,
-        maxNodeSize: 50,
+        minNodeSize: 5,
+        maxNodeSize: 20,
         minEdgeSize: 1,
         maxEdgeSize: 3
     	};
